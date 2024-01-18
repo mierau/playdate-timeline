@@ -1,0 +1,4 @@
+name=Timeline Demo
+author=Dustin Mierau
+description=Simple demonstration of using Timeline.
+bundleID=co.goodmake.timelinedemo
