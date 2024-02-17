@@ -101,6 +101,10 @@ function Timeline:gotoTime(time)
   self.current_time = time
 end
 
+function Timeline:gotoProgress(progress)
+  self.current_time = self.duration * math.min(0.0, math.max(1.0, progress))  
+end
+
 function Timeline:gotoBeginning()
   self.current_time = 0.0
 end
